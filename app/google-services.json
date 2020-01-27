@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1031711319436",
+    "firebase_url": "https://easy-bills-a62c5.firebaseio.com",
+    "project_id": "easy-bills-a62c5",
+    "storage_bucket": "easy-bills-a62c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031711319436:android:879aa3150fe28eccef62a9",
+        "android_client_info": {
+          "package_name": "com.example.billapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031711319436-q1ejjs5ukf0uj6be2e29n759nkr8stg3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.billapp",
+            "certificate_hash": "74e5a0768fdcf9587f944a44e891850a3a598613"
+          }
+        },
+        {
+          "client_id": "1031711319436-sqbub5sli95eahlqopk19jq5l1gki3l4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHnRg8AtZ7Eo6Z66z4sK08aTjkVBwBR2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031711319436-sqbub5sli95eahlqopk19jq5l1gki3l4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

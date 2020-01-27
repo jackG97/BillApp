@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradients"
+    tools:context=".OptionsActivity">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="84dp"
+        android:layout_height="151dp"
+        app:layout_constraintBottom_toTopOf="@+id/CameraBtn"
+        app:layout_constraintEnd_toStartOf="@+id/GalleryBtn"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileBtn"
+        app:layout_constraintVertical_bias="0.526"
+        app:srcCompat="@drawable/images4" />
+
+    <Button
+        android:id="@+id/CameraBtn"
+        android:layout_width="126dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="240dp"
+        android:background="#CC4D12"
+        android:text="Camera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.228"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="88dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toTopOf="@+id/GalleryBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toEndOf="@+id/ProfileBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.731"
+        app:srcCompat="@drawable/images3" />
+
+    <Button
+        android:id="@+id/ProfileBtn"
+        android:layout_width="111dp"
+        android:layout_height="82dp"
+        android:background="#445684"
+        android:text="Profile"
+        app:layout_constraintBottom_toTopOf="@+id/GalleryBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54" />
+
+    <Button
+        android:id="@+id/GalleryBtn"
+        android:layout_width="127dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="20dp"
+        android:background="#84446D"
+        android:text="Set a Bill"
+        app:layout_constraintBottom_toTopOf="@+id/imageView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/BillsBtn"
+        android:layout_width="124dp"
+        android:layout_height="81dp"
+        android:layout_marginBottom="72dp"
+        android:background="#64B31A"
+        android:text="Notes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="145dp"
+        android:layout_height="121dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/BillsBtn"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CameraBtn"
+        app:layout_constraintVertical_bias="0.394"
+        app:srcCompat="@drawable/images2" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="124dp"
+        android:layout_height="187dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/BillsBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintStart_toEndOf="@+id/CameraBtn"
+        app:srcCompat="@drawable/images5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
